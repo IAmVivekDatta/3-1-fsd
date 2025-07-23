@@ -1,0 +1,13 @@
+Experiment 20: Complete the MongoDB Certification from MongoDB University
+
+Theory:
+MongoDB University offers free online courses and certifications for MongoDB. Completing a certification demonstrates your knowledge and skills in MongoDB.
+
+Steps:
+1. Go to https://learn.mongodb.com/learning-paths/introduction-to-mongodb
+2. Sign up or log in with your account.
+3. Enroll in the "Introduction to MongoDB" course or any relevant certification path.
+4. Complete all modules, quizzes, and final assessment.
+5. Download your certificate upon completion and add it to your resume or LinkedIn profile.
+
+This step is a self-learning and certification task. No code is required, but you should keep your certificate as proof of completion.

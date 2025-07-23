@@ -1,0 +1,14 @@
+Experiment 16(a): Install MongoDB and Configure Atlas
+
+Theory:
+MongoDB is a NoSQL document database. MongoDB Atlas is a cloud-based database service for deploying, managing, and scaling MongoDB clusters.
+
+Steps:
+1. Go to https://www.mongodb.com/atlas/database and sign up for a free account.
+2. Create a new cluster (choose free tier if available).
+3. Configure your cluster (region, name, etc.).
+4. Add a database user and set a password.
+5. Whitelist your IP address to allow connections.
+6. Get your connection string (URI) for use in applications.
+
+You can also install MongoDB locally from https://www.mongodb.com/try/download/community.

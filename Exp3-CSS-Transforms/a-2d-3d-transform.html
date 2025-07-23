@@ -1,0 +1,52 @@
+<!-- Experiment 3: CSS 2D and 3D Transformations -->
+<!-- This web page demonstrates the use of 2D and 3D CSS transforms. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 2D and 3D Transformations</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+      display: inline-block;
+      background: #4caf50;
+      color: #fff;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      transition: transform 0.5s;
+    }
+    .box2d:hover {
+      transform: rotate(45deg) scale(1.2) translateX(50px);
+    }
+    .box3d {
+      perspective: 200px;
+      display: inline-block;
+    }
+    .box3d .inner {
+      width: 100px;
+      height: 100px;
+      background: #2196f3;
+      color: #fff;
+      line-height: 100px;
+      text-align: center;
+      font-weight: bold;
+      transition: transform 0.5s;
+    }
+    .box3d:hover .inner {
+      transform: rotateY(60deg) rotateX(30deg) scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h2>Experiment 3: CSS 2D and 3D Transformations</h2>
+  <div class="box box2d">2D</div>
+  <div class="box3d">
+    <div class="inner">3D</div>
+  </div>
+  <p>Hover over the boxes to see 2D and 3D transformations.</p>
+</body>
+</html>

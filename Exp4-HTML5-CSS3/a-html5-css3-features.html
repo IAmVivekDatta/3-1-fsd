@@ -1,0 +1,90 @@
+<!-- Experiment 4: Web Page with HTML5 and CSS3 Features -->
+<!-- This page demonstrates new features of HTML5 (semantic tags, form elements, video) and CSS3 (gradients, shadows, transitions). -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 & CSS3 Features</title>
+  <style>
+    header, nav, section, article, footer {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #ccc;
+    }
+    header {
+      background: linear-gradient(90deg, #ff9800, #ffc107);
+      color: #fff;
+      text-align: center;
+    }
+    nav {
+      background: #f5f5f5;
+      display: flex;
+      gap: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2196f3;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f44336;
+    }
+    section {
+      background: #e3f2fd;
+    }
+    article {
+      background: #fffde7;
+    }
+    .video-container {
+      margin: 10px 0;
+    }
+    form {
+      background: #f1f8e9;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    input, button {
+      margin: 5px 0;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Experiment 4: HTML5 & CSS3 Features</h1>
+  </header>
+  <nav>
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+  </nav>
+  <section id="section1">
+    <h2>Semantic Elements & Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <section id="section2">
+    <h2>Video & Article</h2>
+    <div class="video-container">
+      <video width="320" height="180" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <article>
+      <h3>About HTML5 & CSS3</h3>
+      <p>HTML5 introduces new semantic elements, form controls, and multimedia support. CSS3 adds gradients, shadows, transitions, and more for modern web design.</p>
+    </article>
+  </section>
+  <footer>
+    <p>&copy; 2025 Full Stack Development Lab</p>
+  </footer>
+</body>
+</html>
